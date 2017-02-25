@@ -1,0 +1,12 @@
+lines_to_ignore
+split_label
+place
+gplace
+cplace
+name
+city
+bib
+category
+guntime
+chiptime
+split
