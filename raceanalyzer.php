@@ -27,6 +27,9 @@ $me['bib']=$_GET['bib'];
 
 $fp=fopen($RACEDATA_SOURCE,"r");
 
+if (!$fp)
+    return;
+
 $first=true;
 
 $fastrunner=array();
